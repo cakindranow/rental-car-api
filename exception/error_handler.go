@@ -4,7 +4,7 @@ import (
 	"errors"
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2"
-	"github.com/indrawanagung/loyalty_management_api/model/web"
+	"github.com/indrawanagung/food-order-api/model/web"
 )
 
 var ErrNotFound = errors.New("Resource was not found")
@@ -46,6 +46,17 @@ func ErrorHandler(ctx *fiber.Ctx, err error) error {
 	_, ok = err.(UnauthorizedError)
 	if ok {
 		return ctx.Status(401).JSON(web.WebResponse{
+			Header: web.Header{
+				Message: err.Error(),
+				Error:   true,
+			},
+			Data: nil,
+		})
+	}
+
+	_, ok = err.(ForbiddenError)
+	if ok {
+		return ctx.Status(403).JSON(web.WebResponse{
 			Header: web.Header{
 				Message: err.Error(),
 				Error:   true,

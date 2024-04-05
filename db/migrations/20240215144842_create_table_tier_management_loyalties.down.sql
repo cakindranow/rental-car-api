@@ -1,1 +1,0 @@
-drop table if exists tier_management_loyalties

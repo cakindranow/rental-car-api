@@ -1,1 +1,0 @@
-drop table if exists redeemed_point_histories

@@ -1,4 +1,4 @@
-module github.com/indrawanagung/loyalty_management_api
+module github.com/indrawanagung/food-order-api
 
 go 1.20
 

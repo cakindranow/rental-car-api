@@ -3,52 +3,56 @@ package route
 import (
 	jwtware "github.com/gofiber/contrib/jwt"
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/fiber/v2/middleware/recover"
-	"github.com/indrawanagung/loyalty_management_api/controller"
-	"github.com/indrawanagung/loyalty_management_api/exception"
-	"github.com/indrawanagung/loyalty_management_api/model/web"
+	"github.com/indrawanagung/food-order-api/controller"
+	"github.com/indrawanagung/food-order-api/exception"
 	"github.com/spf13/viper"
 )
 
 func New(
-	membershipController controller.MembershipControllerInterface,
-	tierManagementController controller.TierManagementControllerInterface,
-	transactionController controller.TransactionControllerInterface,
+	ProductController controller.ProductControllerInterface,
+	UserController controller.UserControllerInterface,
+	AuthController controller.AuthControllerInterface,
+	CartController controller.CartControllerInterface,
+	CarController controller.CarControllerInterface,
 ) *fiber.App {
 	authentication := jwtware.New(jwtware.Config{
 		SigningKey: jwtware.SigningKey{Key: []byte(viper.GetString("SECRET_KEY"))},
-		ErrorHandler: func(ctx *fiber.Ctx, err error) error {
-			webResponse := web.WebResponse{
-				Header: web.Header{
-					Message: "Invalid or Expired Token",
-					Error:   true,
-				},
-				Data: nil,
-			}
-			return ctx.Status(401).JSON(webResponse)
-		},
 	})
 	app := fiber.New(fiber.Config{ErrorHandler: exception.ErrorHandler})
 
+	app.Use(cors.New())
 	app.Use(recover.New())
 
 	api := app.Group("/api")
 
-	api.Post("/sign_in", membershipController.SignIn)
+	api.Post("/auth/login", AuthController.Login)
 
-	api.Post("/memberships", authentication, membershipController.Save)
-	api.Post("/memberships/activity", authentication, membershipController.AddMemberActivity)
-	api.Post("/memberships/redeemed_point", authentication, membershipController.RedeemedPoint)
-	api.Post("/memberships/redeemed_point/histories", authentication, membershipController.FindAllRedeemedPoint)
-	api.Post("/memberships/earned_point/histories", authentication, membershipController.FindAllEarnedPoint)
+	api.Get("/users/all", authentication, UserController.FindAll)
+	api.Get("/users", authentication, UserController.GetProfile)
+	api.Post("/users", UserController.Save)
+	api.Put("/users/:userID", authentication, UserController.Update)
 
-	api.Get("/tiers", authentication, tierManagementController.FindAll)
-	api.Get("/tiers/:tierID", authentication, tierManagementController.FindByID)
-	api.Post("/tiers", authentication, tierManagementController.Save)
-	api.Put("/tiers/:tierID", authentication, tierManagementController.Updated)
-	api.Delete("/tiers/:tierID", authentication, tierManagementController.Delete)
+	api.Get("/products", authentication, ProductController.FindAll)
+	api.Get("/products/:id", authentication, ProductController.FindByID)
+	api.Post("/products", authentication, ProductController.Save)
 
-	api.Post("/transaction", authentication, transactionController.AddTransaction)
+	//api.Get("/cars", authentication, ProductController.FindAll)
+	//api.Get("/cars/:id", authentication, ProductController.FindByID)
+	//api.Post("/cars", authentication, ProductController.Save)
+	//
+
+	api.Get("/cars", authentication, CarController.FindAll)
+	api.Get("/cars/:id", authentication, CarController.FindByID)
+	api.Post("/cars", authentication, CarController.Save)
+
+	api.Get("/orders", authentication, CarController.FindAllOrder)
+	api.Post("/orders", authentication, CarController.CreateOrder)
+	api.Get("/orders/cancel/:id", authentication, CarController.CanceledOrderByUserID)
+	api.Get("/orders/approve/:id", authentication, CarController.ApproveCarOrderByAdmin)
+	api.Get("/orders/reject/:id", authentication, CarController.RejectCarOrderByAdmin)
+	api.Get("/orders/return/:id", authentication, CarController.ReturnedCarOrderByUserID)
 
 	return app
 }

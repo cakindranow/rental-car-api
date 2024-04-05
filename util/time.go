@@ -2,7 +2,7 @@ package util
 
 import (
 	"github.com/gofiber/fiber/v2/log"
-	"github.com/indrawanagung/loyalty_management_api/exception"
+	"github.com/indrawanagung/food-order-api/exception"
 	"time"
 )
 

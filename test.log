@@ -215,3 +215,307 @@ Key: 'MemberCreateOrUpdateRequest.BirthDate' Error:Field validation for 'BirthDa
 2024/02/17 15:22:12.171076 membership_service_impl.go:269: [Error] 
 2024/02/17 15:22:24.000699 membership_service_impl.go:258: [Error] Key: 'RedeemedPointRequest.RedeemedPoint' Error:Field validation for 'RedeemedPoint' failed on the 'gte' tag
 2024/02/17 15:22:27.879265 membership_service_impl.go:269: [Error] 
+2024/03/23 14:25:35.242567 main.go:37: [Info] server running on port 3000
+2024/03/23 14:29:20.623082 main.go:37: [Info] server running on port 3000
+2024/03/23 14:29:56.471671 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:03.166706 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:13.410667 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:31.727806 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:36.683841 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:37.650893 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:38.270413 product_controller_impl.go:37: [Error] strconv.Atoi: parsing "": invalid syntax
+2024/03/23 14:30:53.250794 main.go:37: [Info] server running on port 3000
+2024/03/23 14:30:58.297463 product_service_impl.go:35: [Error] record not found
+2024/03/23 14:31:15.740054 main.go:37: [Info] server running on port 3000
+2024/03/23 14:31:18.466671 product_service_impl.go:35: [Error] record not found
+2024/03/23 14:31:19.293651 product_service_impl.go:35: [Error] record not found
+2024/03/23 14:31:19.798509 product_service_impl.go:35: [Error] record not found
+2024/03/23 14:31:39.069783 product_service_impl.go:35: [Error] record not found
+2024/03/23 14:36:39.643908 main.go:37: [Info] server running on port 3000
+2024/03/23 14:41:13.215665 main.go:37: [Info] server running on port 3000
+2024/03/23 14:43:22.156860 main.go:37: [Info] server running on port 3000
+2024/03/23 14:44:14.518251 main.go:37: [Info] server running on port 3000
+2024/03/23 14:46:05.360078 main.go:38: [Info] server running on port 3000
+2024/03/23 14:46:59.501583 main.go:38: [Info] server running on port 3000
+2024/03/23 14:47:32.969160 main.go:38: [Info] server running on port 3000
+2024/03/23 14:47:44.801841 main.go:38: [Info] server running on port 3000
+2024/03/23 14:48:49.072430 main.go:38: [Info] server running on port 3000
+2024/03/23 14:51:51.650421 main.go:38: [Info] server running on port 3000
+2024/03/23 14:52:12.253138 main.go:38: [Info] server running on port 3000
+2024/03/23 14:53:45.322363 main.go:38: [Info] server running on port 3000
+2024/03/23 14:54:24.800146 main.go:38: [Info] server running on port 3000
+2024/03/23 14:55:27.952578 main.go:38: [Info] server running on port 3000
+2024/03/23 14:55:52.824141 main.go:38: [Info] server running on port 3000
+2024/03/23 14:56:33.386343 main.go:38: [Info] server running on port 3000
+2024/03/23 15:01:10.690735 main.go:38: [Info] server running on port 3000
+2024/03/23 15:02:34.107049 main.go:38: [Info] server running on port 3000
+2024/03/23 15:03:23.051056 main.go:38: [Info] server running on port 3000
+2024/03/23 15:07:12.220932 main.go:38: [Info] server running on port 3000
+2024/03/23 16:52:27.160870 main.go:38: [Info] server running on port 3000
+2024/03/23 17:37:28.090221 main.go:44: [Info] server running on port 3000
+2024/03/23 17:40:19.047856 main.go:44: [Info] server running on port 3000
+2024/03/23 17:40:48.987420 main.go:43: [Info] server running on port 3000
+2024/03/23 17:41:55.186493 main.go:43: [Info] server running on port 3000
+2024/03/23 17:42:42.728000 main.go:45: [Info] server running on port 3000
+2024/03/23 17:43:00.093199 main.go:45: [Info] server running on port 3000
+2024/03/23 17:43:53.964620 main.go:37: [Info] server running on port 3000
+2024/03/23 17:45:47.025839 main.go:38: [Info] server running on port 3000
+2024/03/23 22:13:55.572837 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:13:55.579252 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:14:00.106524 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:14:00.109047 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:14:17.234108 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:14:17.236056 product_service_impl.go:40: [Error] failed to encode args[0]: unable to encode 1 into text format for text (OID 25): cannot find encode plan
+2024/03/23 22:15:01.675675 product_controller_impl.go:39: [Error] strconv.Atoi: parsing "248d05cc-ed4e-4356-b12b-85fb0f3ec910": invalid syntax
+2024/03/23 22:15:01.678139 product_controller_impl.go:39: [Error] strconv.Atoi: parsing "248d05cc-ed4e-4356-b12b-85fb0f3ec910": invalid syntax
+2024/03/23 22:15:25.516223 product_controller_impl.go:39: [Error] strconv.Atoi: parsing "248d05cc-ed4e-4356-b12b-85fb0f3ec910": invalid syntax
+2024/03/23 22:16:42.771020 main.go:38: [Info] server running on port 3000
+2024/03/23 22:23:46.297933 product_service_impl.go:40: [Error] record not found
+2024/03/24 11:03:33.252294 main.go:38: [Info] server running on port 3000
+2024/03/24 11:03:51.862045 main.go:38: [Info] server running on port 3000
+2024/03/24 11:06:02.699625 product_service_impl.go:40: [Error] record not found
+2024/03/24 11:06:05.686405 product_service_impl.go:40: [Error] record not found
+2024/03/24 11:12:03.603735 product_service_impl.go:40: [Error] record not found
+2024/03/24 11:26:21.636178 product_service_impl.go:40: [Error] record not found
+2024/03/24 11:26:21.916282 product_service_impl.go:40: [Error] record not found
+2024/03/24 12:02:15.761577 main.go:38: [Info] server running on port 3000
+2024/03/24 12:07:54.837775 main.go:38: [Info] server running on port 3000
+2024/03/25 09:37:14.015261 main.go:43: [Info] server running on port 4000
+2024/03/25 09:39:21.987612 main.go:43: [Info] server running on port 4000
+2024/03/25 09:40:09.803867 user_service_impl.go:58: [Fatal] ERROR: column "fullname" of relation "users" does not exist (SQLSTATE 42703)
+2024/03/25 09:40:39.252532 main.go:43: [Info] server running on port 4000
+2024/03/25 09:41:41.828924 main.go:43: [Info] server running on port 4000
+2024/03/25 15:09:07.626314 main.go:43: [Info] server running on port 4000
+2024/03/26 07:09:18.385641 main.go:43: [Info] server running on port 4000
+2024/03/26 07:09:30.522367 user_service_impl.go:34: [Error] Key: 'UserCreateOrUpdateRequest.Name' Error:Field validation for 'Name' failed on the 'min' tag
+Key: 'UserCreateOrUpdateRequest.Email' Error:Field validation for 'Email' failed on the 'min' tag
+2024/03/26 07:09:42.012250 user_service_impl.go:34: [Error] Key: 'UserCreateOrUpdateRequest.Email' Error:Field validation for 'Email' failed on the 'min' tag
+2024/03/26 10:07:41.814835 main.go:43: [Info] server running on port 4000
+2024/03/26 10:22:35.119297 main.go:43: [Info] server running on port 4000
+2024/03/26 10:25:14.775931 main.go:43: [Info] server running on port 4000
+2024/03/26 10:25:55.756227 main.go:43: [Info] server running on port 4000
+2024/03/26 10:48:44.753761 main.go:43: [Info] server running on port 4000
+2024/03/26 12:52:20.197172 main.go:43: [Info] server running on port 4000
+2024/03/26 12:56:53.480413 main.go:43: [Info] server running on port 4000
+2024/03/26 12:58:33.649406 main.go:43: [Info] server running on port 4000
+2024/03/26 13:14:13.956486 main.go:43: [Info] server running on port 4000
+2024/03/26 13:14:50.656634 main.go:43: [Info] server running on port 4000
+2024/03/26 13:15:09.263340 main.go:43: [Info] server running on port 4000
+2024/03/26 13:16:02.205805 main.go:43: [Info] server running on port 4000
+2024/03/26 13:18:03.163168 main.go:43: [Info] server running on port 4000
+2024/03/26 13:37:00.483728 main.go:43: [Info] server running on port 4000
+2024/03/26 13:49:25.294323 main.go:43: [Info] server running on port 4000
+2024/03/26 13:52:51.630575 main.go:43: [Info] server running on port 4000
+2024/03/27 14:54:35.072810 main.go:43: [Info] server running on port 4000
+2024/03/27 17:25:59.290406 main.go:46: [Info] server running on port 4000
+2024/03/27 17:31:35.945841 main.go:46: [Info] server running on port 4000
+2024/03/27 17:39:25.045567 main.go:46: [Info] server running on port 4000
+2024/03/27 17:40:37.587989 main.go:46: [Info] server running on port 4000
+2024/03/27 17:41:16.491027 main.go:46: [Info] server running on port 4000
+2024/03/27 17:41:36.336194 main.go:46: [Info] server running on port 4000
+2024/03/27 17:42:29.136884 main.go:46: [Info] server running on port 4000
+2024/03/27 17:43:32.746768 main.go:46: [Info] server running on port 4000
+2024/03/27 17:43:44.023915 cart_service_impl.go:45: [Error] Key: 'CartCreateRequest.Total' Error:Field validation for 'Total' failed on the 'gt' tag
+2024/03/30 14:28:48.324467 main.go:46: [Info] server running on port 4000
+2024/03/30 14:47:14.929233 main.go:46: [Info] server running on port 4000
+2024/03/30 14:47:18.439082 cart_repository_impl.go:25: [Error] &{0xc00018c6c0 <nil> 0 0xc000367340 0}
+2024/03/30 14:47:20.613177 cart_repository_impl.go:25: [Error] &{0xc00018c6c0 <nil> 0 0xc000696000 0}
+2024/03/30 14:47:21.324750 cart_repository_impl.go:25: [Error] &{0xc00018c6c0 <nil> 0 0xc000367500 0}
+2024/03/30 14:47:22.294333 cart_repository_impl.go:25: [Error] &{0xc00018c6c0 <nil> 0 0xc0006961c0 0}
+2024/03/30 14:48:10.511479 main.go:46: [Info] server running on port 4000
+2024/03/30 14:57:49.069526 main.go:46: [Info] server running on port 4000
+2024/03/30 16:34:00.682895 main.go:46: [Info] server running on port 4000
+2024/04/04 16:54:07.862304 main.go:46: [Info] server running on port 4000
+2024/04/04 16:56:22.878097 user_service_impl.go:34: [Error] Key: 'UserCreateOrUpdateRequest.Phone' Error:Field validation for 'Phone' failed on the 'required' tag
+Key: 'UserCreateOrUpdateRequest.Address' Error:Field validation for 'Address' failed on the 'required' tag
+Key: 'UserCreateOrUpdateRequest.SIM' Error:Field validation for 'SIM' failed on the 'required' tag
+2024/04/04 16:56:55.289821 user_repository_impl.go:38: [Error] ERROR: column users.deleted_at does not exist (SQLSTATE 42703)
+2024/04/04 17:00:14.807925 main.go:46: [Info] server running on port 4000
+2024/04/04 18:05:20.580517 main.go:49: [Info] server running on port 4000
+2024/04/04 18:05:27.832529 product_repository_impl.go:28: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 18:06:02.979887 main.go:49: [Info] server running on port 4000
+2024/04/04 18:06:08.027550 product_repository_impl.go:28: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 18:06:45.862128 main.go:49: [Info] server running on port 4000
+2024/04/04 18:07:33.094093 main.go:49: [Info] server running on port 4000
+2024/04/04 23:16:47.862841 product_repository_impl.go:28: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 23:16:47.871498 product_repository_impl.go:28: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 23:16:59.044232 main.go:49: [Info] server running on port 4000
+2024/04/04 23:22:58.879592 main.go:49: [Info] server running on port 4000
+2024/04/04 23:33:15.659231 product_service_impl.go:40: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 23:34:06.362632 product_service_impl.go:40: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 23:34:10.091964 product_service_impl.go:40: [Error] ERROR: relation "products" does not exist (SQLSTATE 42P01)
+2024/04/04 23:47:46.224932 main.go:49: [Info] server running on port 4000
+2024/04/04 23:57:01.629149 main.go:49: [Info] server running on port 4000
+2024/04/04 23:57:30.794458 car_service_impl.go:40: [Error] ERROR: cached plan must not change result type (SQLSTATE 0A000)
+2024/04/05 09:22:27.274263 main.go:49: [Info] server running on port 4000
+2024/04/05 09:24:32.810846 main.go:49: [Info] server running on port 4000
+2024/04/05 09:26:50.841005 car_service_impl.go:66: [Error] record not found
+2024/04/05 09:27:02.999746 car_repository_impl.go:44: [Error] ERROR: insert or update on table "orders" violates foreign key constraint "orders_fk" (SQLSTATE 23503)
+2024/04/05 09:28:17.357260 car_repository_impl.go:44: [Error] ERROR: insert or update on table "orders" violates foreign key constraint "orders_fk" (SQLSTATE 23503)
+2024/04/05 09:29:51.634839 main.go:49: [Info] server running on port 4000
+2024/04/05 09:31:09.421880 main.go:49: [Info] server running on port 4000
+2024/04/05 09:32:15.431300 main.go:49: [Info] server running on port 4000
+2024/04/05 09:43:19.837835 main.go:49: [Info] server running on port 4000
+2024/04/05 09:43:50.229742 main.go:49: [Info] server running on port 4000
+2024/04/05 09:45:09.119274 car_service_impl.go:136: [Error] <nil>
+2024/04/05 09:52:13.953715 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:52:38.917079 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:52:39.272065 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:52:47.300774 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:13.236038 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:16.911978 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:18.184769 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:27.783373 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:29.432262 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:37.663148 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:39.570567 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:54:40.940975 car_service_impl.go:42: [Error] record not found
+2024/04/05 09:55:50.657274 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:55:54.197905 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:37.497646 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:43.074745 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:43.086762 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:46.762826 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:48.969452 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:55.752200 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:55.777491 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:58.675298 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:57:58.701281 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:12.380054 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:12.464537 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:16.149676 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:19.656245 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:19.658316 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:24.316892 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:24.343628 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:27.713501 car_service_impl.go:89: [Error] record not found
+2024/04/05 09:58:27.758017 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:14:32.259452 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:14:32.261314 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:14:50.378196 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:14:50.378268 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:16:55.320250 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:16:55.320617 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:17:44.834480 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:17:44.834538 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:23:48.094757 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:23:48.094859 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:23:51.059843 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:23:51.060007 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:02.416535 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:02.418229 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:04.584572 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:04.585123 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:08.332132 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:08.332200 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:14.300027 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:14.300135 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:21.546987 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:21.547138 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:24.831894 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:24.832407 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:59.537453 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:24:59.539261 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:10.535428 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:10.536452 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:25.893154 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:25.893746 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:53.278791 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:25:53.278835 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:26:11.677176 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:26:11.677230 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:26:28.263115 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:26:28.263231 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:27:24.464985 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:27:24.467073 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:27:36.831345 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:27:36.834372 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:28:53.504719 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:28:53.506287 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:30:39.727267 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:30:39.727289 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:32:47.445339 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:32:47.449267 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:33:20.558945 main.go:49: [Info] server running on port 4000
+2024/04/05 10:33:58.204668 main.go:49: [Info] server running on port 4000
+2024/04/05 10:34:13.209097 main.go:49: [Info] server running on port 4000
+2024/04/05 10:34:48.316202 main.go:49: [Info] server running on port 4000
+2024/04/05 10:34:52.371092 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:34:52.383363 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:36:07.758441 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:36:07.758588 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:36:16.666748 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:36:16.667340 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:37:15.768333 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:37:15.788581 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:38:21.500721 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:38:21.501388 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:39:02.075198 main.go:49: [Info] server running on port 4000
+2024/04/05 10:40:42.960288 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:40:42.963866 car_service_impl.go:89: [Error] record not found
+2024/04/05 10:41:10.065127 main.go:49: [Info] server running on port 4000
+2024/04/05 10:48:24.178575 main.go:49: [Info] server running on port 4000
+2024/04/05 11:07:56.503971 main.go:49: [Info] server running on port 4000
+2024/04/05 14:18:49.801225 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:19:01.747649 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:19:53.191012 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:20:55.146497 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:21:37.520128 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:23:23.415740 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:24:57.451051 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:26:06.475118 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:28:29.110673 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:28:29.118850 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:28:47.420756 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:28:47.431277 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:28:57.554869 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:28:57.558015 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:29:17.200990 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:29:17.203702 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:30:03.076109 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:30:03.078407 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:30:11.659479 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:30:11.662589 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:30:37.143754 car_service_impl.go:120: [Error] record not found
+2024/04/05 14:31:32.413169 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:31:32.417455 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:33:48.035411 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:36:09.903839 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:36:37.488282 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:37:37.041466 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:41:20.745442 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:42:06.982664 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:42:49.300465 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:42:50.622565 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:42:51.246492 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:46:50.804630 car_service_impl.go:136: [Error] <nil>
+2024/04/05 14:48:34.972145 car_service_impl.go:136: [Error] <nil>
+2024/04/05 16:44:30.356623 main.go:49: [Info] server running on port 4000
+2024/04/05 16:45:29.689904 car_repository_impl.go:84: [Error] ERROR: syntax error at end of input (SQLSTATE 42601)
+2024/04/05 16:46:34.197811 main.go:49: [Info] server running on port 4000
+2024/04/05 16:46:36.487412 car_repository_impl.go:85: [Error] ERROR: syntax error at end of input (SQLSTATE 42601)
+2024/04/05 16:47:01.096823 main.go:49: [Info] server running on port 4000
+2024/04/05 16:47:04.271375 car_repository_impl.go:85: [Error] ERROR: syntax error at end of input (SQLSTATE 42601)
+2024/04/05 16:47:15.874423 main.go:49: [Info] server running on port 4000
+2024/04/05 16:47:17.889644 car_repository_impl.go:85: [Error] ERROR: syntax error at end of input (SQLSTATE 42601)
+2024/04/05 16:47:54.319700 main.go:49: [Info] server running on port 4000
+2024/04/05 16:49:23.738105 main.go:49: [Info] server running on port 4000
+2024/04/05 16:51:52.933444 main.go:49: [Info] server running on port 4000
+2024/04/05 17:01:04.180197 main.go:49: [Info] server running on port 4000
+2024/04/05 17:01:13.129372 car_repository_impl.go:111: [Error] 
+2024/04/05 17:03:57.248200 main.go:49: [Info] server running on port 4000
+2024/04/05 17:03:59.003733 car_repository_impl.go:111: [Error] 
+2024/04/05 17:03:59.872251 car_repository_impl.go:111: [Error] 
+2024/04/05 17:04:59.236228 main.go:49: [Info] server running on port 4000
+2024/04/05 17:06:59.429134 main.go:49: [Info] server running on port 4000
+2024/04/05 17:07:51.041109 main.go:49: [Info] server running on port 4000
+2024/04/05 21:57:19.156716 car_service_impl.go:129: [Error] <nil>
+2024/04/05 21:57:19.803045 car_service_impl.go:129: [Error] <nil>
+2024/04/05 21:57:20.275952 car_service_impl.go:129: [Error] <nil>
+2024/04/05 21:57:20.683771 car_service_impl.go:129: [Error] <nil>
+2024/04/05 21:57:21.631298 car_service_impl.go:129: [Error] <nil>
+2024/04/05 21:57:21.978036 car_service_impl.go:140: [Error] <nil>
+2024/04/05 22:00:01.807685 car_service_impl.go:129: [Error] <nil>
+2024/04/05 22:04:30.654706 main.go:49: [Info] server running on port 4000
+2024/04/05 22:20:24.214679 main.go:49: [Info] server running on port 4000
+2024/04/05 22:24:51.168391 main.go:49: [Info] server running on port 4000
