@@ -71,6 +71,11 @@ func (s CarServiceImpl) CreateOrder(request web.CreateOrderRequest, userID strin
 		panic(exception.NewNotFoundError(err.Error()))
 	}
 
+	isAvailableCar := s.CarRepository.CheckAvailableCar(s.Database, request.StartDate, request.EndDate, request.CarsID)
+	if !isAvailableCar {
+		panic(exception.NewNotFoundError("cars is not available"))
+	}
+
 	order := domain.Order{
 		ID:          uuid.NewString(),
 		StatusID:    util.StatusIDOnProcess(),

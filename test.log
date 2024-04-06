@@ -519,3 +519,18 @@ Key: 'UserCreateOrUpdateRequest.SIM' Error:Field validation for 'SIM' failed on 
 2024/04/05 22:04:30.654706 main.go:49: [Info] server running on port 4000
 2024/04/05 22:20:24.214679 main.go:49: [Info] server running on port 4000
 2024/04/05 22:24:51.168391 main.go:49: [Info] server running on port 4000
+2024/04/06 06:21:52.781214 main.go:49: [Info] server running on port 4000
+2024/04/06 07:57:33.230890 main.go:49: [Info] server running on port 4000
+2024/04/06 08:00:27.112427 main.go:49: [Info] server running on port 4000
+2024/04/06 08:00:40.147004 car_repository_impl.go:117: [Error] 
+2024/04/06 08:00:41.524757 car_repository_impl.go:117: [Error] 
+2024/04/06 08:01:05.599059 main.go:49: [Info] server running on port 4000
+2024/04/06 08:03:08.816576 main.go:49: [Info] server running on port 4000
+2024/04/06 08:04:43.951243 main.go:49: [Info] server running on port 4000
+2024/04/06 08:06:13.734916 main.go:49: [Info] server running on port 4000
+2024/04/06 08:12:15.748620 main.go:49: [Info] server running on port 4000
+2024/04/06 08:27:10.308316 car_service_impl.go:191: [Error] <nil>
+2024/04/06 08:27:16.466744 car_service_impl.go:191: [Error] <nil>
+2024/04/06 08:32:49.306387 main.go:49: [Info] server running on port 4000
+2024/04/06 09:11:54.546543 car_service_impl.go:145: [Error] <nil>
+2024/04/06 09:59:38.285251 main.go:49: [Info] server running on port 4000

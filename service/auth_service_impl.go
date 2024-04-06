@@ -61,8 +61,9 @@ func (s AuthServiceImpl) Login(request web.LoginRequest) web.LoginResponse {
 	}
 
 	return web.LoginResponse{
-		Name:  user.Name,
-		Email: user.Email,
-		Token: t,
+		Name:    user.Name,
+		Email:   user.Email,
+		IsAdmin: user.IsAdmin,
+		Token:   t,
 	}
 }

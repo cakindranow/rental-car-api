@@ -15,4 +15,5 @@ type CarRepositoryInterface interface {
 	FindAllOrderByAdmin(db *gorm.DB) []web.OrderResponse
 	FindOrderByID(db *gorm.DB, orderID string) (domain.Order, error)
 	CheckAvailableByOrderDate(db *gorm.DB, startDate string, endDate string, name string) []domain.Car
+	CheckAvailableCar(db *gorm.DB, startDate string, endDate string, name string) bool
 }

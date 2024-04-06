@@ -90,7 +90,7 @@ func (p CarRepositoryImpl) FindOrderByID(db *gorm.DB, orderID string) (domain.Or
 func (p CarRepositoryImpl) CheckAvailableByOrderDate(db *gorm.DB, startDate string, endDate string, name string) []domain.Car {
 	var carsNotAvailable []web.OrderResponse
 
-	err := db.Raw("select * from public.orders o where o.status_id in ('1','2') and (start_date  >= ? or end_date  <= ?)", startDate, endDate).Scan(&carsNotAvailable).Error
+	err := db.Raw("select * from public.orders o where o.status_id in ('1','2') and (start_date  <= ? and end_date  >= ?)", endDate, startDate).Scan(&carsNotAvailable).Error
 	if err != nil {
 		log.Error(err)
 		fmt.Println(123)
@@ -103,6 +103,9 @@ func (p CarRepositoryImpl) CheckAvailableByOrderDate(db *gorm.DB, startDate stri
 		carIDNotAvailable = append(carIDNotAvailable, order.CarsID)
 	}
 
+	if len(carIDNotAvailable) == 0 {
+		carIDNotAvailable = append(carIDNotAvailable, "0")
+	}
 	var carsAvailable []domain.Car
 
 	if name != "" {
@@ -125,4 +128,18 @@ func (p CarRepositoryImpl) CheckAvailableByOrderDate(db *gorm.DB, startDate stri
 	}
 
 	return carsAvailable
+}
+
+func (p CarRepositoryImpl) CheckAvailableCar(db *gorm.DB, startDate string, endDate string, carID string) bool {
+	var order web.OrderResponse
+
+	err := db.Raw("select * from public.orders o where o.status_id in ('1','2') and (start_date  <= ? and end_date  >= ? and o.cars_id = ?)", endDate, startDate, carID).Scan(&order).Error
+	if err != nil {
+		log.Error(err)
+	}
+
+	if order.CarsID == carID {
+		return false
+	}
+	return true
 }
