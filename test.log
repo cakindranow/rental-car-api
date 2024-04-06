@@ -535,3 +535,5 @@ Key: 'UserCreateOrUpdateRequest.SIM' Error:Field validation for 'SIM' failed on 
 2024/04/06 09:11:54.546543 car_service_impl.go:145: [Error] <nil>
 2024/04/06 09:59:38.285251 main.go:49: [Info] server running on port 4000
 2024/04/06 10:32:05.756429 main.go:49: [Info] server running on port 4000
+2024/04/06 13:29:50.948838 main.go:65: [Info] server running on port 4000
+2024/04/06 13:30:25.233201 main.go:65: [Info] server running on port 4000

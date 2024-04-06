@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/tls"
 	"github.com/go-playground/validator/v10"
 	"github.com/gofiber/fiber/v2/log"
 	"github.com/gofiber/fiber/v2/middleware/logger"
@@ -11,6 +10,7 @@ import (
 	"github.com/indrawanagung/food-order-api/route"
 	"github.com/indrawanagung/food-order-api/service"
 	"github.com/indrawanagung/food-order-api/util"
+	"os"
 )
 
 func main() {
@@ -45,23 +45,23 @@ func main() {
 	}))
 
 	// Create tls certificate
-	cer, err := tls.LoadX509KeyPair("certs/ssl.cert", "certs/ssl.key")
-	if err != nil {
-		log.Fatal(err)
-	}
-	config2 := &tls.Config{Certificates: []tls.Certificate{cer}}
+	//cer, err := tls.LoadX509KeyPair("certs/ssl.cert", "certs/ssl.key")
+	//if err != nil {
+	//	log.Fatal(err)
+	//}
+	//config2 := &tls.Config{Certificates: []tls.Certificate{cer}}
 
 	// Create custom listener
-	ln, err := tls.Listen("tcp", ":4000", config2)
-	if err != nil {
-		panic(err)
-	}
+	//ln, err := tls.Listen("tcp", ":4000", config2)
+	//if err != nil {
+	//	panic(err)
+	//}
 
 	// Start server with https/ssl enabled on http://localhost:443
-	log.Fatal(app.Listener(ln))
+	//log.Fatal(app.Listener(ln))
 
-	//f, _ := os.OpenFile("test.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
-	//log.SetOutput(f)
-	//log.Info("server running on port 4000")
-	//log.Fatal(app.Listen(":4000"))
+	f, _ := os.OpenFile("test.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
+	log.SetOutput(f)
+	log.Info("server running on port 4000")
+	log.Fatal(app.Listen(":4000"))
 }
